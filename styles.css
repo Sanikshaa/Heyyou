@@ -27,7 +27,7 @@ body {
     color: white;
     border: none;
     padding: 0.5rem 1rem;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -54,7 +54,7 @@ body {
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.5rem; /* Adjusted for mobile */
+    font-size: 1rem; /* Adjusted for mobile */
     color: #618685;
     text-align: center;
     display: none;
@@ -71,7 +71,7 @@ body {
     top: 50%; /* Adjusted for mobile */
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1rem; /* Reduced font size for mobile */
+    font-size: 0.9rem; /* Reduced font size for mobile */
     color: #484f4f;
     text-align: center;
     white-space: pre-wrap; /* Preserve spaces and line breaks */
@@ -180,12 +180,12 @@ body {
     }
 
     #celebration-text {
-        font-size: 1.5rem; /* Reduced font size for mobile */
+        font-size: 1rem; /* Reduced font size for mobile */
         padding: 0 0.5rem; /* Adjusted padding for smaller screens */
     }
 
     #sad-message {
-        font-size: 1rem; /* Further reduced font size for smaller screens */
+        font-size: 0.9rem; /* Further reduced font size for smaller screens */
         padding: 0 0.5rem; /* Adjusted padding for smaller screens */
     }
 
