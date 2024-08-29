@@ -51,7 +51,7 @@ body {
 /* Celebration text */
 #celebration-text {
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1rem; /* Adjusted for mobile */
@@ -68,10 +68,10 @@ body {
 #sad-message {
     display: none;
     position: absolute;
-    top: 50%; /* Adjusted for mobile */
+    top: 60%; /* Adjusted for mobile */
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 0.9rem; /* Reduced font size for mobile */
+    font-size: 0.7rem; /* Reduced font size for mobile */
     color: #484f4f;
     text-align: center;
     white-space: pre-wrap; /* Preserve spaces and line breaks */
@@ -176,7 +176,7 @@ body {
 @media (max-width: 600px) {
     #celebrate-btn {
         padding: 0.5rem 1rem;
-        font-size: 3rem;
+        font-size: 1rem;
     }
 
     #celebration-text {
